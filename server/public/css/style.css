@@ -1,0 +1,122 @@
+.img-item {
+  height: 250px;
+  border: 2px solid black;
+  margin: 5px;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+
+#brick {
+  background: url("http://wallstickers.next.co.uk/Wall-Sticker-Products/TE119702086.jpg.ashx?width=1200&height=1200") center no-repeat;
+  position: fixed;
+  top: 40px;
+  left: 0;
+  min-width: 100%;
+  background-size: cover;
+  height: 450px;
+}
+
+
+.c {
+  font-family: 'Abril Fatface', cursive;
+  margin-left: 10px;
+  color: black;
+}
+
+.l {
+  font-family: 'Lobster', cursive;
+  color: black;
+}
+
+.o {
+  font-family: 'Fjalla One', sans-serif;
+  color: black;
+}
+
+.s {
+  font-family: 'Anton', sans-serif;
+  color: black;
+}
+
+.e {
+  font-family: 'Acme', sans-serif;
+  color: black;
+}
+
+.t {
+  font-family: 'Lobster Two', cursive;
+  color: black;
+}
+
+#header {
+  margin: 0 auto;
+  right: 50%
+  padding: 0;
+  text-align: center;
+  font-size: 30px;
+}
+
+#login {
+  text-align: center;
+}
+
+#loginForm {
+  margin: 0 auto;
+  right: 50%;
+  padding: 0;
+  text-align: center;
+}
+
+.textbox {
+  width: 200px;
+  height: 35px;
+  border-radius: 5px;
+  margin: 10px;
+  font-size: 18px;
+  padding-left: 5px;
+  border: 2px solid black;
+  color: #ff1a8c;
+}
+
+#loginSubmit {
+  height: 35px;
+  width: 200px;
+  margin-top: 5px;
+  border-radius: 5px;
+  border: 2px solid black;
+  background-color: #ff80bf;
+}
+
+#loginSubmit:hover {
+  background-color: #ffb3d9;
+  cursor: pointer;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont;
+}
+
+.wood {
+  background: url("http://www.beltlinebigband.com/wp-content/uploads/2017/05/gray-wood-planks-background-recette-light-recettes-ce-plank-wooden-texture.jpg");
+  background-repeat: round;
+  display: block;
+  position: static;
+  height: 200px;
+  margin: 0;
+  padding: 0;
+}
+
+#woodContainer {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+  filter: brightness(65%);
+}

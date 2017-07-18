@@ -1,0 +1,20 @@
+<h1>{{ name }}'s Closet</h1>
+
+<div><a href="/clothes/view">Browse all closets</a></div>
+
+<form action="/clothes" method="POST">
+  <input name="type" placeholder="type"/>
+  <input name="brand" placeholder="brand"/>
+  <input name="size" placeholder="size"/>
+  <input name="color" placeholder="color"/>
+  <input name="image" placeholder="image"/>
+  <input name="available" placeholder="available"/>
+  <input name="userId" value="{{id}}"/>
+  <button>Submit</button>
+</form>
+
+<ul>
+{{#each clothes}}
+  <li>{{ this.type }} {{ this.brand }} {{ this.size }} {{ this.color }} {{ this.image }} {{ this.available }}</li>
+{{/each}}
+</ul>
