@@ -7,12 +7,11 @@
 .container {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
 }
 
 
 #brick {
-  background: url("http://wallstickers.next.co.uk/Wall-Sticker-Products/TE119702086.jpg.ashx?width=1200&height=1200") center no-repeat;
+  background: url("http://gen4congress.com/wp-content/uploads/2017/08/awesome-and-beautiful-white-marble-background-2-minimalist-white-marble-background-with-ideas-inspiration-46042.jpg") center no-repeat;
   position: fixed;
   top: 40px;
   left: 0;
@@ -119,4 +118,67 @@ body {
   left: 0;
   overflow: hidden;
   filter: brightness(65%);
+}
+
+#logout {
+  background-color: #ff80bf;
+  width: 100px;
+  height: 30px;
+  position: fixed;
+  right: 20px;
+  top: 20px;
+  text-align: center;
+  line-height: 30px;
+  padding: 0;
+  border: solid 2px black;
+}
+
+#logout:hover {
+  background-color: #ffcce6;
+  cursor: pointer;
+}
+
+#logout a {
+  text-decoration: none;
+  color: black;
+}
+
+#clothesHeader {
+  text-align: center;
+  margin: 10px;
+}
+
+#myPage {
+  background-color: #ff3399;
+  height: 30px;
+  width: 100px;
+  margin: 0 auto;
+  line-height: 30px;
+  text-align: center;
+  border: solid 2px black;
+}
+
+#myPage:hover {
+  background-color: #ffcce6;
+  cursor: pointer;
+}
+
+.container {
+  margin: 10px;
+}
+
+#myPage a {
+  text-decoration: none;
+  color: black;
+}
+
+#whiteBrick {
+  background: url("https://s-media-cache-ak0.pinimg.com/564x/bb/5f/ed/bb5fedcc6f1227a2b0b0f57b84b8bb9b.jpg") center no-repeat;
+  position: fixed;
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
+  -o-background-size: contain;
+  background-size: contain;
+  width: 100%;
+  height: 100%;
 }

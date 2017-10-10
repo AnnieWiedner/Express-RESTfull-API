@@ -1,9 +1,13 @@
-<h1>All Clothes</h1>
+<div id="grayBrick">
 
-<div><a href='/users/view/{{userId}}'>My page</a></div>
+<h1 id="clothesHeader">All Clothes</h1>
+
+<div id="myPage"><a href='/users/view/{{userId}}'>My page</a></div>
 
 <div class="container">
   {{#each allClothes}}
     <div><a href="/users/view/{{this.owner}}"><img class="img-item" src="{{this.image}}"/></a></div>
   {{/each}}
+</div>
+
 </div>
