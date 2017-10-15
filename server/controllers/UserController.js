@@ -37,6 +37,8 @@ router.post('/', function(request, response){
   });
 });
 
+
+
 // if someone makes a GET request to users/login, render login.hbs
 router.get('/login', function(request, response){
   response.render('login');
