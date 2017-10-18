@@ -19,6 +19,7 @@ router.get('/', function(request, response){
   User.find(function(error, users){
     response.json(users);
   });
+  
 });
 
 
