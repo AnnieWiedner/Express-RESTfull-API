@@ -95,6 +95,8 @@ router.get('/view/:id', function(request, response){
 
 
 
+
+
 router.get('/:id', function(request, response) {
   var id = request.params.id;
   User.findById(id, function(error, user){
